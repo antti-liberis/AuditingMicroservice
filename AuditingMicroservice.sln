@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuditingMicroservice", "AuditingMicroservice\AuditingMicroservice.csproj", "{E46136B0-EED5-47EE-B119-016DC9E43000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuditingMicroserviceShared", "AuditingMicroserviceShared\AuditingMicroserviceShared.csproj", "{B661702B-3227-4BD1-8A28-DE51EA2D3FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{12831F21-473A-4348-A2C3-73A1AF116C07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mentoring.Employees.Shared", "..\Mentoring.Employees\Mentoring.Employees.Shared\Mentoring.Employees.Shared.csproj", "{B721BF85-932E-4FDC-AFA1-708DC6942E0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E46136B0-EED5-47EE-B119-016DC9E43000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46136B0-EED5-47EE-B119-016DC9E43000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46136B0-EED5-47EE-B119-016DC9E43000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46136B0-EED5-47EE-B119-016DC9E43000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B661702B-3227-4BD1-8A28-DE51EA2D3FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B661702B-3227-4BD1-8A28-DE51EA2D3FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B661702B-3227-4BD1-8A28-DE51EA2D3FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B661702B-3227-4BD1-8A28-DE51EA2D3FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B721BF85-932E-4FDC-AFA1-708DC6942E0F} = {12831F21-473A-4348-A2C3-73A1AF116C07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94A23CC3-63A4-4239-9822-DBFAEC1D26F2}
+	EndGlobalSection
+EndGlobal
