@@ -18,7 +18,12 @@ namespace AuditingMicroservice
 
         public async Task DeleteAuditLog(AuditLog auditLog)
         {
-            auditLogs.FirstOrDefault(log => log == auditLog);
+            var removed = auditLogs.Remove(auditLog);
+
+            if (!removed)
+            {
+                throw new ArgumentException($"Audit log {auditLog.Type} {auditLog.Message} not found");
+            }
         }
     }
 }

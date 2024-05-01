@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mentoring.Employees.Shared", "..\Mentoring.Employees\Mentoring.Employees.Shared\Mentoring.Employees.Shared.csproj", "{B721BF85-932E-4FDC-AFA1-708DC6942E0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditingMicroserviceTest", "AuditingMicroserviceTest\AuditingMicroserviceTest.csproj", "{6D912814-A5A4-46CA-9C3D-E3F650B77E40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B721BF85-932E-4FDC-AFA1-708DC6942E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D912814-A5A4-46CA-9C3D-E3F650B77E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D912814-A5A4-46CA-9C3D-E3F650B77E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D912814-A5A4-46CA-9C3D-E3F650B77E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D912814-A5A4-46CA-9C3D-E3F650B77E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
